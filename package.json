@@ -1,0 +1,42 @@
+{
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.6.1",
+    "Gibberish-AES": "https://github.com/byk0t/gibberish-aes",
+    "art": "^0.10.3",
+    "axios": "^0.18.0",
+    "jetifier": "^1.6.4",
+    "js-sha256": "^0.9.0",
+    "prop-types": "^15.7.2",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-native-linear-gradient": "react-native-community/react-native-linear-gradient",
+    "react-native-pie": "^0.6.1",
+    "react-native-slider": "^0.11.0",
+    "react-native-vector-icons": "^6.5.0",
+    "react-navigation": "^3.9.1"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.0.0-beta.55",
+    "babel-eslint": "^10.0.1",
+    "babel-preset-expo": "^5.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.14.2",
+    "react-native-credit-card-input": "^0.4.1",
+    "react-native-keyboard-spacer": "^0.4.1",
+    "schedule": "^0.4.0"
+  },
+  "private": true
+}
