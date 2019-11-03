@@ -8,7 +8,7 @@
     "@react-native-community/async-storage": "^1.6.1",
     "Gibberish-AES": "https://github.com/byk0t/gibberish-aes",
     "art": "^0.10.3",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "jetifier": "^1.6.4",
     "js-sha256": "^0.9.0",
     "prop-types": "^15.7.2",
