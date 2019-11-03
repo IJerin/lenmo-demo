@@ -1,9 +1,10 @@
-# lenmo-demo
+Requirements
+NodeJS
+Expo
+Setup instructions
+git clone https://github.com/IJerin/lenmo-demo.git
+cd lenmo-demo
+npm install
+react-native run-android (for android)
 
-
-#For android run the following command
-#react-native run-android
-
-
-#For ios run the following command
-#react-native run-ios
+react-native run-android (for ios)
