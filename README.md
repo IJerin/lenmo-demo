@@ -1,1 +1,1 @@
-# lemno-demo
+# lenmo-demo
