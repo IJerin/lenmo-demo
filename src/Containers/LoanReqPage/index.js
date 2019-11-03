@@ -59,15 +59,22 @@ render() {
     	return (
     		<View style={container}>
 			<ScrollView>
+
+				{/* Credit score Section */}
+			
 				<View style={creditScoreView}>
 					<TouchableOpacity onPressed={this.back}>
 						<Image source={BackIcon} />
 					</TouchableOpacity>
 
 					<View style={scoreContainer}>
+
+						{/* 1st column with profile picture */}
 						<View style={userPictureContainer}>
 							<Image source={ProfilePic} style={profilePictureStyle}/>
 						</View>
+
+						{/* 2nd column */}
 						<View style={scoreColumnView}>
 							<View style={userNameView}>
 								<Text style={scoreTextStyle}>
@@ -88,6 +95,8 @@ render() {
 							</View>
 							<Text style={footerText}>Vantage Scorevfcvfvf 4.0</Text>
 						</View>	
+
+						{/* 3rd column */}
 						<View style={scoreColumnView}>
 							<View style={userNameView}>
 							</View>
@@ -113,6 +122,7 @@ render() {
 				</View>
 
 				<View style={divider}></View>
+				{/* Financial Health Section */}
 
 				<View style={financeHealthView}>
 					<View>
@@ -156,9 +166,14 @@ render() {
 						/>
 					</View>
 				</View>
+
 				<View style={divider}></View>
+
+				{/* Offer Information Section */}
 				<View style={offerView}>
 					<View style={divider}></View>
+
+					{/* 1st Section */}
 					<View style={rowView}>
 						<View>
 							<Text style={offerTitileText}>
@@ -202,12 +217,14 @@ render() {
 								
 					</View>
 
+					{/* Button and sliders */}
 					<View style={divider}></View>
 					<View style={buttonContainer}>
 						<Slider
 							minimumValue={1}
 							maximumValue={100}
-							minimumTrackTintColor = {'linear-gradient(45deg, red, blue);'}
+							thumbTintColor={'#568FFC'}
+							minimumTrackTintColor = {'#568FFC'}
 						/>
 						<View style={rowView}>
 							<Text style={sliderLeftText}>

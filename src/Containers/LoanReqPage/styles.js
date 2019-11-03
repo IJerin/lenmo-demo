@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
 		marginRight: 26
 	},
 	scoreContainer: {
-		marginTop: 30,
+		marginTop: 20,
 		flexDirection: 'row',
 		
 	},
