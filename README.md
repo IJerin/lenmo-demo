@@ -11,7 +11,7 @@ Install the dependencies and devDependencies and start the server.
 ```sh
 $ cd lenmo-demo
 $ npm install
-$ react-native run-android
+$ react-native run-android/ios
 ```
 
 For production environments...
